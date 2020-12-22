@@ -1,0 +1,15 @@
+{
+  "name": "TrueID Web BuildID",
+  "description": "Get the BuildID from TrueID web",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
